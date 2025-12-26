@@ -1,0 +1,55 @@
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.headerRow {
+  text-align: left;
+}
+
+.headerCell {
+  padding: 8px;
+  font-weight: 600;
+}
+
+.row {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.rowNoBorder {
+  border-bottom: none;
+}
+
+.cell {
+  padding: 8px;
+  vertical-align: top;
+}
+
+.descriptionCell {
+  max-width: 300px;
+}
+
+.descriptionShort {
+  max-width: 25ch;
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.expandButton {
+  margin-left: 8px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.expandedRow {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.expandedCell {
+  padding: 8px;
+}
